@@ -1,0 +1,6 @@
+USE <<substituir.pelo.seu.banco.ou.comente>>;
+CREATE TABLE IF NOT EXISTS tasks (
+id SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+completed BOOLEAN NOT NULL DEFAULT FALSE
+);
